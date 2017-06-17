@@ -16,7 +16,7 @@ local BASE_FOLDER = ""
 
 function is_admin(msg)-- Check if user is admin or not
   local var = false
-  local admins = {your id , pika launcher id}-- put your id and cli pika launcher bot
+  local admins = {65761134,133021344,113566842,276004249}-- put your id and cli pika launcher bot
   for k,v in pairs(admins) do
     if msg.from.id == v then
       var = true
